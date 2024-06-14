@@ -1,6 +1,6 @@
 @font-face {
     font-family: Inter;
-    src: url(assets/fonts/static/Inter-Bold.ttf);
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 *,
@@ -19,63 +19,81 @@
     --Off: hsl(0, 0%, 8%);
     --Font-color: hsl(0, 0%, 100%);
 
-    --h1: 22px;
-    --h2: 12px;
-    --parg: 12px;
-    --Font-size: 14px;
+    --fw-regular: 400;
+    --fw-medium: 600;
+    --fw-bold: 700;
+
+    --h1: 24px;
+    --h2: 14px;
+    --parg: 14px;
+    --Font-size: 13px;
 }
 
 body {
+    width: 100%;
     background-color: var(--Off);
     font-size: var(--Font-size);
     color: var(--White);
     font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--Dark);
-    width: 300px;
-    height: 450px;
-    margin: auto;
-    margin-top: 6rem;
+    width: 350px;
+    height: 600px;
+    margin-top: 5rem;
+    margin-left: 0;
     padding: 1.5rem;
     text-align: center;
     border-radius: 1rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 
 .avatar {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
+    margin-bottom: 1.5rem;
 }
 
 .name {
     font-size: var(--h1);
+    font-weight: var(--fw-medium);
 }
 
 .location {
     font-size: var(--h2);
     color: var(--Green);
+    margin-bottom: .8rem;
 }
 
 .job-description {
     font-size: var(--parg);
-    font-weight: 100;
+    font-weight: var(--fw-regular);
 }
 
 .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
 .social-links li {
     display: block;
+    width: 280px;
     padding: .35rem;
     background-color: var(--Grey);
     border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    margin-top: 15px;
 }
 
 .social-links li:hover {
@@ -92,5 +110,5 @@ body {
     text-decoration: none;
     width: 100%;
     height: 100%;
-    font-weight: bold;
+    font-weight: var(--fw-bold);
 }
