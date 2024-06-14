@@ -1,0 +1,126 @@
+    @font-face {
+        font-family: Inter;
+        src: url(assets/fonts/static/Inter-Regular.ttf);
+    }
+
+
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    :root {
+        --Green: hsl(75, 94%, 57%);
+        --White: hsl(0, 0%, 100%);
+        --Grey: hsl(0, 0%, 20%);
+        --Dark: hsl(0, 0%, 12%);
+        --Off: hsl(0, 0%, 8%);
+        --Font-color: hsl(0, 0%, 100%);
+        
+        --h1: 22px;
+        --h2: 12px;
+        --parg: 12px;
+        --Font-size: 14px;
+    }
+    
+    body {
+        background-color: var(--Off);
+        font-size: var(--Font-size);
+        color: var(--White);
+        font-family: Inter, sans-serif;
+    }
+    
+    .card {
+        background-color: var(--Dark);
+        width: 300px;
+        height: 450px;
+        margin: auto;
+        margin-top: 6rem;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 1rem;
+        line-height: 1.8rem;
+    }
+    
+    .attribution {
+        font-size: 10px; text-align: center;
+    }
+
+    .attribution a { 
+        color: hsl(227, 45%, 44%);
+    }
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: var(--h1);
+}
+
+.profile-regoin {
+    font-size: var(--h2);
+    color: var(--Green);
+}
+
+.profile-job {
+    font-size: var(--parg);
+    font-weight: 100;
+}
+
+.social-links {
+
+    list-style: none;
+}
+
+.social-links li {
+    display: block;
+    padding: .35rem;
+    background-color: var(--Grey);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.social-links li:hover {
+    background-color: var(--Green);
+    cursor:url("https://images-eds-ssl.xboxlive.com/image?url=rOOPPWX9ohGfLksSzq1Wig8iTZ05uPbeb.DpV4tdbbbWNm1XXu8uEEIOyHxIQzbkg6QV19S8ccQ3rJJvQNmSUjWGPrJ2xdsBXB0tu3QXTYir1QqCQaFq6boVafipW8dNYmXgbqOR2.PoENWIhB0PYahWrh5hGXnIZ.CXDPtZ_PNZawbC0Kp2ZHjvgMiONF4hvxv6cWCDbO3MX2YKmsdTFJSWe1yynb8kgGfhhqhpSrrfuBeuuHFr3FpVuAqgPnCILkISo0y2Jrgnpp7QqSYq0ipp8Zm5Uuf9n7O5469Fo0aP0ImfNqt1JQltoVNudk0N&format=source");
+}
+
+.social-links li:hover > a {
+    color: var(--Off);
+    font-weight: bold;
+}
+
+.social-links li a {
+    display: block;
+    color: var(--White);
+    text-decoration: none;
+    cursor:url("/assets/images/cursor-pointer-image.png");
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
