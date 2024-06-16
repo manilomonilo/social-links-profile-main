@@ -23,10 +23,10 @@
     --fw-medium: 600;
     --fw-bold: 700;
 
-    --h1: 24px;
-    --h2: 14px;
-    --parg: 14px;
-    --Font-size: 13px;
+    --h1: 1.9rem;
+    --h2: .9rem;
+    --parg: .9rem;
+    --Font-size: .85rem;
 }
 
 body {
@@ -50,7 +50,6 @@ body {
     align-items: center;
     background-color: var(--Dark);
     width: 350px;
-    height: 550px;
     margin-left: 0;
     padding: 1.5rem;
     text-align: center;
